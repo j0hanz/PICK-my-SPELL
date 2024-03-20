@@ -367,6 +367,7 @@ let questionsHard = [
     socialMedia.classList.add("hide");
     howToPlay.classList.add("hide");
     feedbackButton.classList.add("hide");
+    headerElement.classList.add("hide");
   }
   
   function feedback() {
@@ -377,6 +378,7 @@ let questionsHard = [
     socialMedia.classList.add("hide");
     howToPlay.classList.add("hide");
     feedbackButton.classList.add("hide");
+    headerElement.classList.add("hide");
   }
   
   function closeText() {
