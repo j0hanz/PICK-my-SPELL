@@ -1,3 +1,7 @@
+
+![-my- icon](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/d00f1e9c-77b0-4c29-b918-4a1b1e6b1ed7)
+
+
 # Contents
 
 - [User Experience](#user-experience)
