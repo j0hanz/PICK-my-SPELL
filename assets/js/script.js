@@ -390,6 +390,7 @@ let questionsHard = [
   function playGame() {
     easyButton.classList.remove("hide");
     hardButton.classList.remove("hide");
+    closeButton.classList.remove("hide");
     playButton.classList.add("hide");
     socialMedia.classList.add("hide");
     howToPlay.classList.add("hide");
