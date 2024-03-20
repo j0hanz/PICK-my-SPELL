@@ -431,6 +431,7 @@ let questionsHard = [
     headerElement.classList.add("hide");
     hardButton.classList.add("hide");
     showGameGuide.classList.add("hide");
+    closeButton.classList.add("hide");
     shuffledQuestions = questionsEasy.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     gameElement.classList.remove("hide");
@@ -447,6 +448,7 @@ let questionsHard = [
     headerElement.classList.add("hide");
     hardButton.classList.add("hide");
     showGameGuide.classList.add("hide");
+    closeButton.classList.add("hide");
     shuffledQuestions = questionsHard.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     gameElement.classList.remove("hide");
