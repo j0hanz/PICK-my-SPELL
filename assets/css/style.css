@@ -1,10 +1,9 @@
-
 /* All elements */
 * {
   padding-top: 20px;
   margin: 0;
   box-sizing: unset;
-  padding: 10px;
+  padding: 6px;
 }
 /* Remove underline on links and color change */
 a {
@@ -18,6 +17,7 @@ h1 {
   font-size: 80px;
   padding-left: 4rem;
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 span {
@@ -31,24 +31,18 @@ body {
   color: #ffffff;
   font-family: "Inter";
   text-align: center;
-  font-weight: 10;
 }
 
 /* classes */
-
-.site-layout {
-  container: in;
-}
-
 .btn {
   padding: 20px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border-radius: 25px;
   position: relative;
   width: auto; /* transition effect on class btn buttons */
   font-size: 1.6rem;
-  margin: 20px;
+  margin: 17px;
   background-color: #252422;
   color: #ffffff;
   border-style: solid;
@@ -65,9 +59,9 @@ body {
 }
 
 .icon-style {
+  margin-top: 30px;
   font-size: 50px;
   padding-bottom: 25px;
-  color: #ff0000;
 }
 
 #countdown {
@@ -81,10 +75,6 @@ body {
 #wrong {
   font-size: 30px;
   color: #ff0000;
-}
-
-.checkbox {
-  font-size: 30px;
 }
 
 .hide {
@@ -123,7 +113,7 @@ body {
 }
 
 .icon-style {
-  padding-top: 0;
+  padding-top: 65px;
   font-size: 75px;
   color: #ffffff;
 }
@@ -190,22 +180,23 @@ textarea {
 }
 
 table {
-justify-content: center;
-margin-top: 50px;
+  justify-content: center;
+  margin-top: 50px;
   margin-left: 25%;
   margin-right: 25%;
-  padding-left: 115px;
-  padding-right: 140px;
-  
-  
+  padding-left: 145px;
+  padding-right: 120px;
 }
 
 td {
-  padding: 5px;
+  padding: 15px;
   border-style: groove;
   border-width: 0.5px;
   border-color: #ababab;
   font-size: 20px;
+}
+img {
+  max-width: 280px;
 }
 
 /* Hover effect */
@@ -267,7 +258,419 @@ span:hover {
 }
 
 /* Media Queries */
+@media (max-width: 900px) {
+  * {
+    padding-top: 0;
+  }
+  body {
+    padding-top: 30px;
+  }
+  h1 {
+    font-size: 65px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    padding-top: 30px;
+  }
+  span {
+    font-size: 50px;
+  }
 
-@media (max-width: 280px) {
+  #countdown {
+    font-size: 40px;
+  }
+  .score-text {
+    gap: 20px;
+  }
+  #correct,
+  #wrong {
+    font-size: 25px;
+  }
+  .score-correct,
+  .score-wrong {
+    font-size: 25px;
+  }
+  .icon-style {
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  .btn--x {
+    font-size: 2.2rem;
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin: 0;
+  }
+  .social-media {
+    font-size: 40px;
+  }
+  footer {
+    margin: 25%;
+  }
+  .p-text {
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  table {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px;
+  }
+  td {
+    font-size: 22px;
+  }
+  label {
+    font-size: 18px;
+  }
+  input {
+    width: 18em;
+    padding: 15px;
+    height: 1em;
+    margin: 7px;
+    font-size: 18px;
+  }
+  textarea {
+    width: 22rem;
+    height: 7em;
+    margin: 2px;
+    font-size: 18px;
+    padding: 5px;
+  }
+  .submit-btn {
+    width: 8em;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  .p-my {
+    font-size: 13px;
+  }
 
+  .btn--guide:hover,
+  .btn--feedback:hover {
+    font-size: 1rem;
+  }
+
+  .btn--quit:hover,
+  .btn--hard:hover {
+    font-size: 1rem;
+  }
+
+  .btn--easy:hover,
+  .btn--play:hover {
+    font-size: 1rem;
+  }
+
+  .btn--x:hover {
+    font-size: 2.2rem;
+  }
+  span:hover {
+    font-size: 24px;
+  }
+  .social-media:hover {
+    font-size: 42px;
+  }
+  .p-my:hover {
+    font-size: 14px;
+  }
+  .submit-btn:hover {
+    font-size: 17px;
+  }
+}
+
+/* 600px */
+@media (max-width: 600px) {
+  * {
+    padding-top: 0;
+    padding: 0;
+  }
+  body {
+    padding-top: 30px;
+  }
+  h1 {
+    font-size: 50px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    padding-top: 30px;
+  }
+  span {
+    font-size: 38px;
+  }
+  .btn {
+    margin: 10px;
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-width: 1px;
+    border-radius: 20px;
+    width: 11rem;
+    margin-bottom: 20px;
+  }
+  #countdown {
+    font-size: 30px;
+  }
+  .score-text {
+    gap: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #correct,
+  #wrong {
+    font-size: 15px;
+  }
+  .score-correct,
+  .score-wrong {
+    font-size: 15px;
+  }
+  .icon-style {
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  .btn--x {
+    font-size: 2.2rem;
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin: 0;
+  }
+  .social-media {
+    font-size: 40px;
+  }
+  footer {
+    margin: 25%;
+  }
+  img {
+    max-width: 175px;
+  }
+  .p-text {
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  table {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px;
+  }
+  td {
+    font-size: 18px;
+  }
+  label {
+    font-size: 18px;
+  }
+  input {
+    width: 15em;
+    padding: 18px;
+    height: 1em;
+    font-size: 18px;
+    margin: 2px;
+  }
+  textarea {
+    width: 17rem;
+    height: 7em;
+    margin: 2px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .submit-btn {
+    width: 7em;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .contact {
+    font-size: 25px;
+  }
+  .icon-style {
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  .p-my {
+    font-size: 13px;
+  }
+
+  .btn--guide:hover,
+  .btn--feedback:hover {
+    font-size: 1rem;
+  }
+
+  .btn--quit:hover,
+  .btn--hard:hover {
+    font-size: 1rem;
+  }
+
+  .btn--easy:hover,
+  .btn--play:hover {
+    font-size: 1rem;
+  }
+
+  .btn--x:hover {
+    font-size: 2.2rem;
+  }
+  span:hover {
+    font-size: 24px;
+  }
+  .social-media:hover {
+    font-size: 42px;
+  }
+  .p-my:hover {
+    font-size: 14px;
+  }
+  .submit-btn:hover {
+    font-size: 17px;
+  }
+}
+
+/* 375px */
+@media (max-width: 375px) {
+  * {
+    padding-top: 0;
+    padding: 0;
+  }
+  body {
+    padding-top: 30px;
+  }
+  h1 {
+    font-size: 38px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    padding-top: 30px;
+  }
+  span {
+    font-size: 22px;
+  }
+  .btn {
+    margin: 10px;
+    font-size: 0.9rem;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 7.5rem;
+    margin-bottom: 20px;
+  }
+  #countdown {
+    font-size: 30px;
+  }
+  .score-text {
+    gap: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #correct,
+  #wrong {
+    font-size: 15px;
+  }
+  .score-correct,
+  .score-wrong {
+    font-size: 15px;
+  }
+  .icon-style {
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  .btn--x {
+    font-size: 2.2rem;
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin: 0;
+  }
+  .social-media {
+    font-size: 40px;
+  }
+  footer {
+    margin: 25%;
+  }
+  img {
+    max-width: 125px;
+  }
+  .p-text {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  table {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px;
+  }
+  td {
+    padding: 1px;
+    font-size: 13px;
+  }
+  label {
+    font-size: 15px;
+  }
+  input {
+    width: 13em;
+    padding: 10px;
+    height: 1em;
+    font-size: 15px;
+    margin: 5px;
+  }
+  textarea {
+    width: 13rem;
+    height: 7em;
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .submit-btn {
+    width: 7em;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .contact {
+    font-size: 25px;
+  }
+  .icon-style {
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  .p-my {
+    font-size: 13px;
+  }
+
+  .btn--guide:hover,
+  .btn--feedback:hover {
+    font-size: 1rem;
+  }
+
+  .btn--quit:hover,
+  .btn--hard:hover {
+    font-size: 1rem;
+  }
+
+  .btn--easy:hover,
+  .btn--play:hover {
+    font-size: 1rem;
+  }
+
+  .btn--x:hover {
+    font-size: 2.2rem;
+  }
+  span:hover {
+    font-size: 24px;
+  }
+  .social-media:hover {
+    font-size: 42px;
+  }
+  .p-my:hover {
+    font-size: 14px;
+  }
+  .submit-btn:hover {
+    font-size: 17px;
+  }
 }
