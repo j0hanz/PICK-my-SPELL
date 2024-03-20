@@ -334,8 +334,6 @@ let questionsHard = [
   
   let shuffledQuestions, currentQuestionIndex;
   
-  let icons = document.getElementById("icons");
-  
   let countdownElement = document.getElementById("countdown");
   
   let headerElement = document.getElementById("header");
@@ -348,7 +346,8 @@ let questionsHard = [
   
   let timerInterval;
   
-  // Enables Start & Quit button
+  //EventListeners
+
   playButton.addEventListener("click", playGame);
   howToPlay.addEventListener("click", showGuide);
   feedbackButton.addEventListener("click", feedback);
@@ -356,7 +355,10 @@ let questionsHard = [
   hardButton.addEventListener("click", startGameHard);
   quitButton.addEventListener("click", quitGame);
   closeButton.addEventListener("click", closeText);
+
   
+  //Functions for the buttons
+
   function showGuide() {
     showGameGuide.classList.remove("hide");
     showFeedback.classList.add("hide");
@@ -464,7 +466,6 @@ let questionsHard = [
   }
   
   function showQuestion(question) {
-    //questionElement.innerText = question.question;
     questionElement.classList.add(question.question);
     quitButton.classList.remove("hide");
   
@@ -511,7 +512,6 @@ let questionsHard = [
       currentQuestionIndex++;
     }
     setStatus(document.body, correct);
-  
     Array.from(answerButtonsElement.children).forEach((button) => {
       setStatus(button, button.dataset.correct);
     });
