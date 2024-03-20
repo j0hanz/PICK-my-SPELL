@@ -1,3 +1,4 @@
+
 /* All elements */
 * {
   padding-top: 20px;
@@ -8,7 +9,6 @@
 /* Remove underline on links and color change */
 a {
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
   color: #ff0000;
 }
 
@@ -29,11 +29,16 @@ span {
 body {
   background-color: #252422;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter";
   text-align: center;
+  font-weight: 10;
 }
 
 /* classes */
+
+.site-layout {
+  container: in;
+}
 
 .btn {
   padding: 20px;
@@ -185,17 +190,22 @@ textarea {
 }
 
 table {
+justify-content: center;
+margin-top: 50px;
   margin-left: 25%;
   margin-right: 25%;
+  padding-left: 115px;
+  padding-right: 140px;
+  
+  
 }
 
 td {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 5px;
   border-style: groove;
   border-width: 0.5px;
   border-color: #ababab;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 /* Hover effect */
@@ -258,111 +268,6 @@ span:hover {
 
 /* Media Queries */
 
-@media (max-width: 768px) {
-  * {
-    padding-top: 10px;
-  }
-  h1 {
-    font-size: 50px;
-    padding-left: 0rem;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  a {
-    font-size: 30px;
-  }
-  footer {
-    padding-top: 60px;
-  }
-  .btn {
-    font-size: 1.5rem;
-    width: 150px;
-    margin: 10px;
-    padding: 10px;
-  }
-  .btn-select {
-    width: 100px;
-    font-size: 1.2rem;
-  }
-  .social-media {
-    font-size: 45px;
-  }
-  .btn-layout {
-    grid-template-columns: repeat(2, auto);
-  }
-  .icon-style {
-    font-size: 50px;
-    color: #ffffff;
-    padding-bottom: 50px;
-  }
-  .score-text {
-    gap: 20px;
-  }
-  .score-correct {
-    font-size: 20px;
-  }
+@media (max-width: 280px) {
 
-  .score-wrong {
-    font-size: 20px;
-  }
-  .btn--quit {
-    padding: 10px;
-  }
-}
-
-/* 320px */
-@media (max-width: 368px) {
-  * {
-    padding-top: 10px;
-  }
-  h1 {
-    font-size: 30px;
-    padding-left: 0rem;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  a {
-    font-size: 25px;
-  }
-  footer {
-    padding-top: 60px;
-  }
-  .btn {
-    font-size: 1.2rem;
-    width: 100px;
-    margin: 5px;
-    padding: 10px;
-  }
-  .btn-select {
-    width: 100px;
-    font-size: 1.2rem;
-  }
-  .social-media {
-    font-size: 45px;
-  }
-  .btn-layout {
-    grid-template-columns: repeat(2, auto);
-  }
-  .icon-style {
-    font-size: 50px;
-    color: #ffffff;
-    padding-bottom: 10px;
-  }
-  .score-text {
-    gap: 20px;
-  }
-  .score-correct {
-    font-size: 20px;
-  }
-
-  .score-wrong {
-    font-size: 20px;
-  }
-  .btn--quit {
-    padding: 10px;
-  }
-  #countdown {
-    font-size: 30px;
-    padding-top: 30px;
-  }
 }
