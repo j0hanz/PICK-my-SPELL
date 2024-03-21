@@ -463,7 +463,6 @@ function nextQuestion() {
   } else {
     finalResultElement.classList.remove("hide");
     countdownElement.classList.add("hide");
-    console.log("game over");
   }
 }
 

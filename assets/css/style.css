@@ -230,7 +230,6 @@ img {
   background-color: #ff0000;
   color: #ffffff;
   border-color: #252422;
-  font-size: 1.8rem;
 }
 
 .btn--easy:hover,
@@ -238,13 +237,11 @@ img {
   background-color: #37ff00;
   color: #252422;
   border-color: #252422;
-  font-size: 1.8rem;
 }
 
 .btn--x:hover {
   color: #ff0000;
   background-color: #252422;
-  font-size: 3.2rem;
 }
 
 a:hover {
@@ -255,18 +252,15 @@ span:hover {
   transition: 0.7s;
 }
 .social-media:hover {
-  font-size: 70px;
   transition: 0.7s;
 }
 .p-my:hover {
-  font-size: 20px;
 }
 .submit-btn:hover {
   background-color: #37ff00;
   color: #252422;
   border-color: #252422;
   transition: 0.5s;
-  font-size: 21px;
 }
 
 /* Media Queries */
@@ -328,36 +322,7 @@ span:hover {
     width: 11rem;
   }
 
-  .btn--guide:hover,
-  .btn--feedback:hover {
-    font-size: 1rem;
-  }
-
-  .btn--quit:hover,
-  .btn--hard:hover {
-    font-size: 1rem;
-  }
-
-  .btn--easy:hover,
-  .btn--play:hover {
-    font-size: 1rem;
-  }
-
-  .btn--x:hover {
-    font-size: 2.2rem;
-  }
-  span:hover {
-    font-size: 24px;
-  }
-  .social-media:hover {
-    font-size: 42px;
-  }
-  .p-my:hover {
-    font-size: 14px;
-  }
-  .submit-btn:hover {
-    font-size: 17px;
-  }
+  
 }
 
 /* 600px */
@@ -486,36 +451,6 @@ span:hover {
     width: 9.5rem;
   }
 
-  .btn--guide:hover,
-  .btn--feedback:hover {
-    font-size: 1rem;
-  }
-
-  .btn--quit:hover,
-  .btn--hard:hover {
-    font-size: 1rem;
-  }
-
-  .btn--easy:hover,
-  .btn--play:hover {
-    font-size: 1rem;
-  }
-
-  .btn--x:hover {
-    font-size: 2.2rem;
-  }
-  span:hover {
-    font-size: 24px;
-  }
-  .social-media:hover {
-    font-size: 42px;
-  }
-  .p-my:hover {
-    font-size: 14px;
-  }
-  .submit-btn:hover {
-    font-size: 17px;
-  }
   .game-over {
     font-size: 40px;
     padding-bottom: 30px;
@@ -647,37 +582,6 @@ span:hover {
     font-size: 20px;
     width: 8.5rem;
   }
-
-  .btn--guide:hover,
-  .btn--feedback:hover {
-    font-size: 1rem;
-  }
-
-  .btn--quit:hover,
-  .btn--hard:hover {
-    font-size: 1rem;
-  }
-
-  .btn--easy:hover,
-  .btn--play:hover {
-    font-size: 1rem;
-  }
-
-  .btn--x:hover {
-    font-size: 2.2rem;
-  }
-  span:hover {
-    font-size: 24px;
-  }
-  .social-media:hover {
-    font-size: 42px;
-  }
-  .p-my:hover {
-    font-size: 14px;
-  }
-  .submit-btn:hover {
-    font-size: 17px;
-  }
   .game-over {
     font-size: 35px;
     padding-bottom: 30px;
@@ -802,37 +706,6 @@ span:hover {
     margin: 15px;
     font-size: 18px;
     width: 8.5rem;
-  }
-
-  .btn--guide:hover,
-  .btn--feedback:hover {
-    font-size: 1rem;
-  }
-
-  .btn--quit:hover,
-  .btn--hard:hover {
-    font-size: 1rem;
-  }
-
-  .btn--easy:hover,
-  .btn--play:hover {
-    font-size: 1rem;
-  }
-
-  .btn--x:hover {
-    font-size: 2.2rem;
-  }
-  span:hover {
-    font-size: 24px;
-  }
-  .social-media:hover {
-    font-size: 42px;
-  }
-  .p-my:hover {
-    font-size: 14px;
-  }
-  .submit-btn:hover {
-    font-size: 17px;
   }
 
   .game-over {
