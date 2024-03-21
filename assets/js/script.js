@@ -338,6 +338,8 @@ let countdownElement = document.getElementById("countdown");
 
 let headerElement = document.getElementById("header");
 
+let activeIconClass;
+
 let score;
 
 let wrongAnswer;
@@ -347,12 +349,15 @@ let timeLeft;
 let timerInterval;
 
 //EventListeners
-
+easyButton.addEventListener("click", function() {
+  startGame("easy")
+});
+hardButton.addEventListener("click", function() {
+  startGame("hard")
+} );
 playButton.addEventListener("click", playGame);
 howToPlay.addEventListener("click", showGuide);
 feedbackButton.addEventListener("click", feedback);
-easyButton.addEventListener("click", startGameEasy);
-hardButton.addEventListener("click", startGameHard);
 quitButton.addEventListener("click", quitGame);
 closeButton.addEventListener("click", closeText);
 
@@ -418,9 +423,12 @@ function startTimer() {
   }, 1000);
 }
 
-//Start game Easy
-
-function startGameEasy() {
+function startGame(gametype) {
+  if (gametype === "easy"){
+    shuffledQuestions = questionsEasy.sort(() => Math.random() - 0.5);
+  }else {
+    shuffledQuestions = questionsHard.sort(() => Math.random() - 0.5);
+  }
   startTimer();
   score = 0;
   wrongAnswer = 0;
@@ -431,24 +439,6 @@ function startGameEasy() {
   hardButton.classList.add("hide");
   showGameGuide.classList.add("hide");
   closeButton.classList.add("hide");
-  shuffledQuestions = questionsEasy.sort(() => Math.random() - 0.5);
-  currentQuestionIndex = 0;
-  gameElement.classList.remove("hide");
-  nextQuestion();
-}
-//Start game Hard
-function startGameHard() {
-  startTimer();
-  score = 0;
-  wrongAnswer = 0;
-  document.getElementById("correct").innerText = `${score}`;
-  document.getElementById("wrong").innerText = `${wrongAnswer}`;
-  easyButton.classList.add("hide");
-  headerElement.classList.add("hide");
-  hardButton.classList.add("hide");
-  showGameGuide.classList.add("hide");
-  closeButton.classList.add("hide");
-  shuffledQuestions = questionsHard.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
   gameElement.classList.remove("hide");
   nextQuestion();
@@ -463,15 +453,21 @@ function quitGame() {
 
 function nextQuestion() {
   resetState();
-
-  showQuestion(shuffledQuestions[currentQuestionIndex]);
+  if (currentQuestionIndex < shuffledQuestions.length) {
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
+  } else {
+    console.log("game over");
+  }
+ 
 
   startTimer();
 }
 
 function showQuestion(question) {
+  activeIconClass = question.question;
   questionElement.classList.add(question.question);
   quitButton.classList.remove("hide");
+  console.log("question.question", question.question);
 
   question.answers.forEach((answer) => {
     let button = document.createElement("button");
@@ -492,6 +488,7 @@ function showQuestion(question) {
 
 function resetState() {
   clearStatus(document.body);
+  questionElement.classList.remove(activeIconClass);
 
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild);
@@ -519,11 +516,8 @@ function selectAnswer(e) {
   Array.from(answerButtonsElement.children).forEach((button) => {
     setStatus(button, button.dataset.correct);
   });
-
-  if (shuffledQuestions.length > currentQuestionIndex + 1) {
-  } else {
-  }
 }
+
 
 function setStatus(element, correct) {
   clearStatus(element);
