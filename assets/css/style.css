@@ -266,20 +266,14 @@ span:hover {
 
 /* Media Queries */
 @media (max-width: 900px) {
-  * {
-    padding-top: 0;
-  }
-  body {
-    padding-top: 30px;
-  }
   h1 {
-    font-size: 65px;
+    font-size: 80px;
     padding-left: 0;
     padding-bottom: 60px;
-    padding-top: 30px;
+    padding-top: 100px;
   }
   span {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   #countdown {
@@ -296,25 +290,11 @@ span:hover {
   .score-wrong {
     font-size: 25px;
   }
-  .icon-style {
-    padding-top: 10px;
-    font-size: 50px;
-  }
-  .btn--x {
-    font-size: 2.2rem;
-    padding: 0px;
-    padding-bottom: 30px;
-    padding-top: 0;
-    margin: 0;
-  }
-  .social-media {
-    font-size: 40px;
-  }
   footer {
-    margin: 25%;
+    margin: 5%;
   }
   .p-text {
-    font-size: 22px;
+    font-size: 25px;
     padding: 10px;
     margin-bottom: 15px;
   }
@@ -325,29 +305,7 @@ span:hover {
     padding: 8px;
   }
   td {
-    font-size: 22px;
-  }
-  label {
-    font-size: 18px;
-  }
-  input {
-    width: 18em;
-    padding: 15px;
-    height: 1em;
-    margin: 7px;
-    font-size: 18px;
-  }
-  textarea {
-    width: 22rem;
-    height: 7em;
-    margin: 2px;
-    font-size: 18px;
-    padding: 5px;
-  }
-  .submit-btn {
-    width: 8em;
-    margin-left: 50px;
-    font-size: 15px;
+    font-size: 25px;
   }
   .p-my {
     font-size: 13px;
@@ -355,10 +313,9 @@ span:hover {
   .btn--play,
   .btn--guide,
   .btn--feedback {
-    margin: 20px;
+    margin: 25px;
     margin-left: 17%;
     margin-right: 17%;
-
     width: 11rem;
   }
 
@@ -709,4 +666,161 @@ span:hover {
   .submit-btn:hover {
     font-size: 17px;
   }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 38px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+  }
+  body {
+    padding-top: 10px;
+  }
+  span {
+    font-size: 22px;
+  }
+  .btn {
+    margin: 5px;
+    font-size: 0.8rem;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 8.5rem;
+    margin-bottom: 5px;
+  }
+  #countdown {
+    font-size: 30px;
+  }
+  .score-text {
+    gap: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #correct,
+  #wrong {
+    font-size: 15px;
+  }
+  .score-correct,
+  .score-wrong {
+    font-size: 15px;
+  }
+  .icon-style {
+    padding-top: 5px;
+    font-size: 50px;
+  }
+  .btn--x {
+    font-size: 2.2rem;
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin: 0;
+  }
+  .social-media {
+    font-size: 40px;
+  }
+  footer {
+    margin: 5%;
+  }
+  img {
+    max-width: 125px;
+  }
+  .p-text {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  table {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px;
+  }
+  td {
+    padding: 10px;
+    font-size: 13px;
+  }
+  label {
+    font-size: 15px;
+  }
+  input {
+    width: 13em;
+    padding: 10px;
+    height: 1em;
+    font-size: 15px;
+    margin: 5px;
+  }
+  textarea {
+    width: 13rem;
+    height: 7em;
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .submit-btn {
+    width: 7em;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .contact {
+    font-size: 25px;
+  }
+  .icon-style {
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  .p-my {
+    font-size: 13px;
+  }
+
+  .btn--play,
+  .btn--guide,
+  .btn--feedback {
+    margin: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 8.5rem;
+  }
+
+  .btn--guide:hover,
+  .btn--feedback:hover {
+    font-size: 1rem;
+  }
+
+  .btn--quit:hover,
+  .btn--hard:hover {
+    font-size: 1rem;
+  }
+
+  .btn--easy:hover,
+  .btn--play:hover {
+    font-size: 1rem;
+  }
+
+  .btn--x:hover {
+    font-size: 2.2rem;
+  }
+  span:hover {
+    font-size: 24px;
+  }
+  .social-media:hover {
+    font-size: 42px;
+  }
+  .p-my:hover {
+    font-size: 14px;
+  }
+  .submit-btn:hover {
+    font-size: 17px;
+  }
+
+  
 }
