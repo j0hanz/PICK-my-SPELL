@@ -350,8 +350,6 @@ let timeLeft;
 
 let timerInterval;
 
-let timerStop;
-
 //EventListeners
 easyButton.addEventListener("click", function () {
   startGame("easy");
@@ -443,8 +441,8 @@ function startGame(gametype) {
   hardButton.classList.add("hide");
   showGameGuide.classList.add("hide");
   closeButton.classList.add("hide");
-  currentQuestionIndex = 0;
   gameElement.classList.remove("hide");
+  currentQuestionIndex = 0;
   nextQuestion();
 }
 
@@ -522,7 +520,7 @@ function selectAnswer(e) {
   if (currentQuestionIndex >= shuffledQuestions.length) {
     clearInterval(timerInterval);
     resetState();
-    quitButton.innerText = 'Exit';
+    quitButton.innerText = "Exit";
   }
 }
 

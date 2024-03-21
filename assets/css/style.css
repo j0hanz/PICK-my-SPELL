@@ -275,9 +275,9 @@ span:hover {
     font-size: 55px;
   }
 
-.btn {
-  padding: 15px;
-}
+  .btn {
+    padding: 15px;
+  }
 
   .timer {
     font-size: 40px;
@@ -321,8 +321,6 @@ span:hover {
     margin-right: 17%;
     width: 11rem;
   }
-
-  
 }
 
 /* 600px */
@@ -589,7 +587,6 @@ span:hover {
 }
 
 @media (max-width: 320px) {
-
   h1 {
     font-size: 38px;
     padding-left: 0;
@@ -712,5 +709,4 @@ span:hover {
     font-size: 30px;
     padding-bottom: 30px;
   }
-  
 }
