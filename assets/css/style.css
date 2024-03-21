@@ -2,22 +2,22 @@
 * {
   margin: 0;
   box-sizing: unset;
-  padding: 6px;
+  font-family: "Inter";
 }
 
 /* Body */
 body {
   background-color: #252422;
   color: #ffffff;
-  font-family: "Inter";
   text-align: center;
 }
 
 /* Header */
 h1 {
-  font-size: 90px;
-  padding-left: 4rem;
-  margin: 3%;
+  font-size: 85px;
+  margin-left: 3%;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 /* Remove underline on links and color change */
@@ -30,32 +30,43 @@ span {
   font-size: 50px;
   color: #ff0000;
 }
+/* Footer */
+footer {
+  margin: 2%;
+}
 
 /* classes */
 .btn {
-  padding: 20px;
+  margin-top: 100px;
+  padding: 22px;
   padding-top: 10px;
   padding-bottom: 8px;
-  border-radius: 25px;
+  border-radius: 22px;
   position: relative;
   width: auto; /* transition effect on class btn buttons */
   font-size: 1.6rem;
-  margin: 17px;
+  margin: 15px;
   background-color: #252422;
   color: #ffffff;
   border-style: solid;
   border-color: #ababab;
 }
 
-.btn--easy,
-.btn--hard,
 .btn--quit,
 .btn--play,
 .btn--guide,
 .btn--feedback {
-  width: 150px;
+  width: 160px;
+}
+.btn--quit {
+  margin-top: 3%;
 }
 
+.btn--easy,
+.btn--hard {
+  width: 160px;
+  margin-top: 5%;
+}
 .icon-style {
   margin-top: 30px;
   font-size: 50px;
@@ -63,7 +74,7 @@ span {
 }
 
 .timer {
-  font-size: 50px;
+  font-size: 30px;
   padding-bottom: 20px;
 }
 #correct {
@@ -80,9 +91,9 @@ span {
 }
 
 .scoreboard {
-  margin: 20px;
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 }
 
 .score-text {
@@ -90,9 +101,9 @@ span {
   grid-template-columns: repeat(2, auto);
   gap: 50px;
   border-radius: 20px;
-  padding-top: 10px;
   border-style: groove;
   border-color: #ababab;
+  padding: 15px;
 }
 .score-correct {
   color: #37ff00;
@@ -111,8 +122,8 @@ span {
 }
 
 .icon-style {
-  padding-top: 65px;
-  font-size: 75px;
+  padding-top: 50px;
+  font-size: 90px;
   color: #ffffff;
 }
 .icon-style-correct {
@@ -211,7 +222,10 @@ img {
   font-size: 40px;
   padding-bottom: 75px;
 }
-
+#game-area {
+  padding: 0%;
+  margin: 0;
+}
 /* Hover effect */
 
 .btn:hover {
@@ -266,7 +280,9 @@ span:hover {
   }
 
   .btn {
-    padding: 15px;
+    font-size: 1.3rem;
+    border-width: 1px;
+    border-radius: 20px;
   }
 
   .timer {
@@ -286,9 +302,7 @@ span:hover {
   img {
     max-width: 250px;
   }
-  footer {
-    margin: 5%;
-  }
+
   .p-text {
     font-size: 25px;
     margin-bottom: 15px;
@@ -314,21 +328,14 @@ span:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 80px;
-    padding-left: 0;
-    padding-bottom: 60px;
-    padding-top: 100px;
+    font-size: 70px;
   }
   span {
     font-size: 55px;
   }
 
-  .btn {
-    padding: 15px;
-  }
-
   .timer {
-    font-size: 40px;
+    font-size: 28px;
   }
   .score-text {
     gap: 20px;
@@ -341,8 +348,8 @@ span:hover {
   .score-wrong {
     font-size: 25px;
   }
-  footer {
-    margin: 5%;
+  .icon-style {
+    font-size: 70px;
   }
   .p-text {
     font-size: 25px;
@@ -374,35 +381,22 @@ span:hover {
 
 /* 600px */
 @media (max-width: 600px) {
-  * {
-    padding-top: 20px;
-    padding: 0;
-  }
-  body {
-    padding-top: 70px;
-  }
   h1 {
-    font-size: 50px;
-    padding-left: 0;
-    padding-bottom: 60px;
-    padding-top: 30px;
+    font-size: 43px;
   }
   span {
-    font-size: 38px;
+    font-size: 30px;
   }
   .btn {
-    margin: 10px;
     font-size: 1.1rem;
-    padding: 10px;
     padding-left: 0px;
     padding-right: 0px;
     border-width: 1px;
     border-radius: 20px;
     width: 11rem;
-    margin-bottom: 20px;
   }
   .timer {
-    font-size: 30px;
+    font-size: 25px;
   }
   .score-text {
     gap: 35px;
@@ -428,9 +422,6 @@ span:hover {
   }
   .social-media {
     font-size: 40px;
-  }
-  footer {
-    margin: 25%;
   }
 
   .p-text {
@@ -473,7 +464,7 @@ span:hover {
     font-size: 25px;
   }
   .icon-style {
-    font-size: 40px;
+    font-size: 60px;
     padding-top: 0px;
     padding-bottom: 25px;
   }
@@ -495,46 +486,34 @@ span:hover {
     font-size: 40px;
     padding-bottom: 30px;
   }
+  .btn--easy,
+  .btn--hard {
+    margin-top: 10%;
+  }
 }
 
 /* 375px */
 @media (max-width: 375px) {
-  * {
-    padding-top: 0;
-    padding: 0;
-  }
-  body {
-    padding-top: 30px;
-  }
   h1 {
-    font-size: 40px;
-    padding-left: 0;
-    padding-bottom: 60px;
-    padding-top: 30px;
+    font-size: 37px;
   }
   span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .btn {
-    margin: 10px;
     font-size: 0.9rem;
-    padding: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 8px;
     border-width: 1px;
     border-radius: 20px;
-    width: 7.5rem;
-    margin-bottom: 20px;
+    width: 6.5rem;
+    margin: 6px;
   }
   .timer {
-    font-size: 30px;
+    font-size: 20px;
   }
   .score-text {
     gap: 35px;
     border-radius: 20px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
   #correct,
   #wrong {
@@ -546,7 +525,7 @@ span:hover {
   }
   .icon-style {
     padding-top: 10px;
-    font-size: 50px;
+    font-size: 60px;
   }
   .btn--x {
     font-size: 2.2rem;
@@ -554,9 +533,7 @@ span:hover {
   .social-media {
     font-size: 40px;
   }
-  footer {
-    margin: 25%;
-  }
+
   img {
     max-width: 125px;
   }
@@ -600,7 +577,7 @@ span:hover {
     font-size: 25px;
   }
   .icon-style {
-    font-size: 40px;
+    font-size: 55px;
     padding-top: 0px;
     padding-bottom: 25px;
   }
@@ -611,10 +588,14 @@ span:hover {
   .btn--play,
   .btn--guide,
   .btn--feedback {
-    margin: 25px;
-    padding: 15px;
+    margin: 20px;
+    padding: 12px;
     font-size: 20px;
     width: 8.5rem;
+  }
+  .btn--easy,
+  .btn--hard {
+    margin-top: 10%;
   }
   .game-over {
     font-size: 35px;
@@ -624,29 +605,10 @@ span:hover {
 
 @media (max-width: 320px) {
   h1 {
-    font-size: 38px;
-    padding-left: 0;
-    padding-bottom: 60px;
-    padding-top: 50px;
-  }
-  body {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    font-size: 32px;
   }
   span {
-    font-size: 22px;
-  }
-  .btn {
-    margin: 5px;
-    font-size: 0.8rem;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-width: 1px;
-    width: 8.5rem;
-    margin-bottom: 5px;
-  }
-  .timer {
-    font-size: 30px;
+    font-size: 18px;
   }
   .score-text {
     gap: 35px;
@@ -673,9 +635,7 @@ span:hover {
   .social-media {
     font-size: 30px;
   }
-  footer {
-    margin: 5%;
-  }
+
   img {
     max-width: 125px;
   }
@@ -738,5 +698,8 @@ span:hover {
   .game-over {
     font-size: 30px;
     padding-bottom: 30px;
+  }
+  .btn--quit {
+    margin-top: 0;
   }
 }
