@@ -207,7 +207,7 @@ img {
 }
 
 .game-over {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 75px;
 }
 
@@ -359,11 +359,11 @@ span:hover {
 /* 600px */
 @media (max-width: 600px) {
   * {
-    padding-top: 0;
+    padding-top: 20px;
     padding: 0;
   }
   body {
-    padding-top: 30px;
+    padding-top: 70px;
   }
   h1 {
     font-size: 50px;
@@ -512,6 +512,10 @@ span:hover {
   }
   .submit-btn:hover {
     font-size: 17px;
+  }
+  .game-over {
+    font-size: 40px;
+    padding-bottom: 30px;
   }
 }
 
@@ -671,6 +675,10 @@ span:hover {
   .submit-btn:hover {
     font-size: 17px;
   }
+  .game-over {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -827,5 +835,9 @@ span:hover {
     font-size: 17px;
   }
 
+  .game-over {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
   
 }
