@@ -1,36 +1,34 @@
 /* All elements */
 * {
-  padding-top: 20px;
   margin: 0;
   box-sizing: unset;
   padding: 6px;
 }
+
+/* Body */
+body {
+  background-color: #252422;
+  color: #ffffff;
+  font-family: "Inter";
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 90px;
+  padding-left: 4rem;
+  margin: 3%;
+}
+
 /* Remove underline on links and color change */
 a {
   text-decoration: none;
   color: #ff0000;
 }
 
-/* Header */
-
-h1 {
-  font-size: 80px;
-  padding-left: 4rem;
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-
 span {
   font-size: 50px;
   color: #ff0000;
-}
-/* Body */
-
-body {
-  background-color: #252422;
-  color: #ffffff;
-  font-family: "Inter";
-  text-align: center;
 }
 
 /* classes */
@@ -130,9 +128,9 @@ body {
 
 .p-text {
   font-size: 30px;
-  padding: 20px;
-  padding-left: 30rem;
-  padding-right: 30rem;
+  padding: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 0.5rem;
 }
 
@@ -172,6 +170,8 @@ textarea {
 .btn--x {
   border-style: none;
   font-size: 2.8rem;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .contact {
@@ -180,23 +180,24 @@ textarea {
 }
 
 table {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 50px;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-left: 145px;
-  padding-right: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 td {
-  padding: 15px;
+  padding: 10px;
   border-style: groove;
   border-width: 0.5px;
   border-color: #ababab;
   font-size: 20px;
+  max-width: 380px;
 }
 img {
-  max-width: 280px;
+  max-width: 380px;
 }
 .btn--play,
 .btn--guide,
@@ -218,11 +219,6 @@ img {
   color: #252422;
   transition: all 0.5s;
   border-color: #252422;
-}
-
-.btn--guide:hover,
-.btn--feedback:hover {
-  font-size: 1.7rem;
 }
 
 .btn--quit:hover,
@@ -247,15 +243,15 @@ img {
 a:hover {
   color: #ffffff;
 }
+
 span:hover {
-  font-size: 60px;
   transition: 0.7s;
 }
+
 .social-media:hover {
   transition: 0.7s;
 }
-.p-my:hover {
-}
+
 .submit-btn:hover {
   background-color: #37ff00;
   color: #252422;
@@ -264,6 +260,58 @@ span:hover {
 }
 
 /* Media Queries */
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .btn {
+    padding: 15px;
+  }
+
+  .timer {
+    font-size: 40px;
+  }
+  .score-text {
+    gap: 20px;
+  }
+  #correct,
+  #wrong {
+    font-size: 25px;
+  }
+  .score-correct,
+  .score-wrong {
+    font-size: 25px;
+  }
+  img {
+    max-width: 250px;
+  }
+  footer {
+    margin: 5%;
+  }
+  .p-text {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  td {
+    font-size: 25px;
+  }
+  .p-my {
+    font-size: 13px;
+  }
+  .btn--play,
+  .btn--guide,
+  .btn--feedback {
+    margin: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 13rem;
+  }
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 80px;
@@ -301,14 +349,15 @@ span:hover {
     padding: 10px;
     margin-bottom: 15px;
   }
+  img {
+    max-width: 200px;
+  }
   table {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
     padding: 8px;
   }
   td {
-    font-size: 25px;
+    font-size: 20px;
+    max-width: 200px;
   }
   .p-my {
     font-size: 13px;
@@ -376,10 +425,6 @@ span:hover {
   }
   .btn--x {
     font-size: 2.2rem;
-    padding: 0px;
-    padding-bottom: 30px;
-    padding-top: 0;
-    margin: 0;
   }
   .social-media {
     font-size: 40px;
@@ -387,23 +432,20 @@ span:hover {
   footer {
     margin: 25%;
   }
-  img {
-    max-width: 175px;
-  }
+
   .p-text {
     font-size: 19px;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   table {
-    position: relative;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 8px;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   td {
-    font-size: 18px;
+    font-size: 15px;
   }
   label {
     font-size: 18px;
@@ -508,10 +550,6 @@ span:hover {
   }
   .btn--x {
     font-size: 2.2rem;
-    padding: 0px;
-    padding-bottom: 30px;
-    padding-top: 0;
-    margin: 0;
   }
   .social-media {
     font-size: 40px;
@@ -528,11 +566,9 @@ span:hover {
     margin-bottom: 15px;
   }
   table {
-    position: relative;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
     padding: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   td {
     padding: 10px;
@@ -633,10 +669,6 @@ span:hover {
   }
   .btn--x {
     font-size: 2.2rem;
-    padding: 0px;
-    padding-bottom: 30px;
-    padding-top: 0;
-    margin: 0;
   }
   .social-media {
     font-size: 30px;
@@ -653,15 +685,13 @@ span:hover {
     margin-bottom: 15px;
   }
   table {
-    position: relative;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 8px;
+    padding: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   td {
-    padding: 10px;
-    font-size: 13px;
+    padding: 2px;
+    font-size: 10px;
   }
   label {
     font-size: 15px;
