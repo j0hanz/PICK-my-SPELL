@@ -1,6 +1,8 @@
 
 ![-my- icon](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/d00f1e9c-77b0-4c29-b918-4a1b1e6b1ed7)
 
+![Am_I_Responsive_PP2](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/de04dbb1-ae82-4f7f-8387-9793815219a8)
+
 
 # Contents
 
