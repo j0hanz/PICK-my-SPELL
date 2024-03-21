@@ -64,7 +64,7 @@ body {
   padding-bottom: 25px;
 }
 
-#countdown {
+.timer {
   font-size: 50px;
   padding-bottom: 20px;
 }
@@ -206,6 +206,11 @@ img {
   margin-right: 25%;
 }
 
+.game-over {
+  font-size: 50px;
+  padding-bottom: 75px;
+}
+
 /* Hover effect */
 
 .btn:hover {
@@ -276,7 +281,7 @@ span:hover {
     font-size: 55px;
   }
 
-  #countdown {
+  .timer {
     font-size: 40px;
   }
   .score-text {
@@ -380,7 +385,7 @@ span:hover {
     width: 11rem;
     margin-bottom: 20px;
   }
-  #countdown {
+  .timer {
     font-size: 30px;
   }
   .score-text {
@@ -539,7 +544,7 @@ span:hover {
     width: 7.5rem;
     margin-bottom: 20px;
   }
-  #countdown {
+  .timer {
     font-size: 30px;
   }
   .score-text {
@@ -692,7 +697,7 @@ span:hover {
     width: 8.5rem;
     margin-bottom: 5px;
   }
-  #countdown {
+  .timer {
     font-size: 30px;
   }
   .score-text {
