@@ -198,6 +198,13 @@ td {
 img {
   max-width: 280px;
 }
+.btn--play,
+.btn--guide,
+.btn--feedback {
+  margin: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
 /* Hover effect */
 
@@ -344,6 +351,15 @@ span:hover {
   }
   .p-my {
     font-size: 13px;
+  }
+  .btn--play,
+  .btn--guide,
+  .btn--feedback {
+    margin: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+
+    width: 11rem;
   }
 
   .btn--guide:hover,
@@ -493,6 +509,17 @@ span:hover {
   .p-my {
     font-size: 13px;
   }
+  .btn--play,
+  .btn--guide,
+  .btn--feedback {
+    padding: 12px;
+    margin: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    width: 9.5rem;
+  }
 
   .btn--guide:hover,
   .btn--feedback:hover {
@@ -641,6 +668,15 @@ span:hover {
   }
   .p-my {
     font-size: 13px;
+  }
+
+  .btn--play,
+  .btn--guide,
+  .btn--feedback {
+    margin: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 8.5rem;
   }
 
   .btn--guide:hover,
