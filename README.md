@@ -12,6 +12,9 @@
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
+    - [Wireframes](#wireframes)
+      - [Preview](#preview)
+      - [Final design](#final-design)
 - [Features](#features)
     - [General Features on Each page](#general-features-on-each-page)
     - [Future Implementations](#future-implementations)
@@ -62,6 +65,22 @@ Took inspiration from [coolors.com](https://coolors.co/252422-ff0000-37ff00-abab
 Font family used on this website is imported from Google fonts: [Inter](https://fonts.google.com/specimen/Inter?query=inter) 
 
 Icons shown during game Is taken from [Font Awesome](https://fontawesome.com/)
+
+## Wireframes
+
+When I started this project, I used Balsamiq to draw how I wanted the website to look like. I made some changes during the development.
+
+### Preview
+
+![Wireframe_menu](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/1f8aa524-ef11-4ce8-bb21-61610d7cb407)
+
+![Wireframe_Easy](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/853dcb97-bee3-4eb7-9a29-81e77d848678)
+
+### Final design
+
+![Menu_Final](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/4439212a-187b-4db4-a7ab-04e1bfed3e45)
+
+![Easy_Final](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/b0e7a881-36b9-42e7-a566-6aa5ae7bd26b)
 
 # Features
 
