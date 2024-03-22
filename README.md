@@ -16,7 +16,6 @@
       - [Preview](#preview)
       - [Final design](#final-design)
 - [Features](#features)
-    - [General Features on Each page](#general-features-on-each-page)
     - [Future Implementations](#future-implementations)
 - [Technologies Used](#technologies-used)
 - [Deployment & Local Development](#deployment--local-development)
@@ -26,6 +25,7 @@
   - [W3C Validator](#w3c-validator)
   - [Wave Validator](#wave-validator)
   - [Lighthouse](#lighthouse)
+  - [JSHint](#jshint)
 - [Credits](#credits)
     - [Youtube Channels](#youtube-channels)
     - [Icons](#icons)
@@ -224,6 +224,16 @@ Login (or signup) to Github.
 ## Lighthouse
 
 ![testing-lighthouse](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/db84f993-c434-4775-aff2-52f986d8bded)
+
+## JSHint
+
+Used to validate the Javascript code, no errors were found. [JSHint](https://jshint.com/)
+
+* The following metrics were returned:
+  - There are 20 functions in this file.
+  - Function with the largest signature take 2 arguments, while the median is 0.
+  - Largest function has 16 statements in it, while the median is 4.5.
+  - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
 
 # Credits
