@@ -326,8 +326,6 @@ let gameElement = document.getElementById("game-area");
 
 let questionElement = document.getElementById("question");
 
-let changeDifficulty = document.getElementById("hard");
-
 let socialMedia = document.getElementById("socialMedia");
 
 let answerButtonsElement = document.getElementById("answer-buttons");
