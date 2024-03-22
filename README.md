@@ -32,7 +32,7 @@
  
 # User Experience
 
-PICK-me-SPELL Is a spelling game that Is built like a quiz, you will have different spelling options for each icon that will be displayed, one of them Is the correct one and you have 10s to choose. An excellent game if you want to improve your English spelling
+PICK-my-SPELL Is a spelling game that Is built like a quiz, you will have different spelling options for each icon that will be displayed, one of them Is the correct one and you have 10s to choose. An excellent game if you want to improve your English spelling
 
 ## Difficulty
 
