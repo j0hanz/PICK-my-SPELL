@@ -45,7 +45,7 @@ footer {
   position: relative;
   width: auto; /* transition effect on class btn buttons */
   font-size: 1.6rem;
-  margin: 15px;
+  margin: 20px;
   background-color: #252422;
   color: #ffffff;
   border-style: solid;
@@ -283,6 +283,7 @@ span:hover {
     font-size: 1.3rem;
     border-width: 1px;
     border-radius: 20px;
+    margin: 12px;
   }
 
   .timer {
@@ -349,7 +350,8 @@ span:hover {
     font-size: 25px;
   }
   .icon-style {
-    font-size: 70px;
+    padding-top: 25px;
+    font-size: 80px;
   }
   .p-text {
     font-size: 25px;
@@ -388,12 +390,11 @@ span:hover {
     font-size: 30px;
   }
   .btn {
-    font-size: 1.1rem;
-    padding-left: 0px;
-    padding-right: 0px;
+    font-size: 1rem;
     border-width: 1px;
     border-radius: 20px;
-    width: 11rem;
+    width: 7rem;
+    margin: 10px;
   }
   .timer {
     font-size: 25px;
@@ -412,10 +413,6 @@ span:hover {
   .score-correct,
   .score-wrong {
     font-size: 15px;
-  }
-  .icon-style {
-    padding-top: 10px;
-    font-size: 50px;
   }
   .btn--x {
     font-size: 2.2rem;
@@ -462,11 +459,6 @@ span:hover {
   }
   .contact {
     font-size: 25px;
-  }
-  .icon-style {
-    font-size: 60px;
-    padding-top: 0px;
-    padding-bottom: 25px;
   }
   .p-my {
     font-size: 13px;
@@ -576,11 +568,6 @@ span:hover {
   .contact {
     font-size: 25px;
   }
-  .icon-style {
-    font-size: 55px;
-    padding-top: 0px;
-    padding-bottom: 25px;
-  }
   .p-my {
     font-size: 13px;
   }
@@ -679,9 +666,7 @@ span:hover {
     font-size: 25px;
   }
   .icon-style {
-    font-size: 40px;
-    padding-top: 0px;
-    padding-bottom: 25px;
+    font-size: 65px;
   }
   .p-my {
     font-size: 13px;
