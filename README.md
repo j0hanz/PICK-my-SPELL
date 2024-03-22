@@ -28,7 +28,6 @@
   - [JSHint](#jshint)
 - [Credits](#credits)
     - [Youtube Channels](#youtube-channels)
-    - [Icons](#icons)
     - [Acknowledgments](#acknowledgments)
  
 # User Experience
@@ -40,6 +39,7 @@ PICK-me-SPELL Is a spelling game that Is built like a quiz, you will have differ
 The game has 2 difficulty level to choose.
 
 __________________________________________________________________________________________________________
+
 ### Easy mode
 
 In Easy mode, you have 4 different spelling options to choose, one of them Is correct spelled.
@@ -47,6 +47,7 @@ In Easy mode, you have 4 different spelling options to choose, one of them Is co
 ![Easy-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/8aede8ce-eb99-4955-a2af-4e87e816bcd6)
 
 __________________________________________________________________________________________________________
+
 ### Hard mode
 
 In Hard mode, you have 6 different spelling options to choose and has more challenging words, one of them Is correct spelled.
@@ -89,47 +90,56 @@ When I started this project, I used Balsamiq to draw how I wanted the website to
 To start the game, click on the play button.
 
 ![play-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/0e1ac933-d59c-4491-88af-b736bda10a8c)
+
 __________________________________________________________________________________________________________
 
 Starts the game in Easy mode
 
 ![Easy-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/3fea56ec-4964-4ef2-b736-6c390b008d06)
+
 __________________________________________________________________________________________________________
 
 Starts the game in Hard mode.
 
 ![Hard-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/6e5cab52-a418-4b94-b6c5-863fa3292074)
+
 __________________________________________________________________________________________________________
 
 Quits the game and heads back to the menu page.
 
 ![quit-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/03938e1c-5e8e-445a-a52b-9d3a185d727d)
+
 __________________________________________________________________________________________________________
 
 Every question will have an Icon shown at the top, pick the right spelling word. Below you have a timer set to 10 seconds. When the timer goes to 0 the answer will be registered as wrong and goes to the next question.
 
 ![Icon-timer](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/bccdd7eb-a965-4247-9b03-89508d4f3817)
+
 __________________________________________________________________________________________________________
 
 Heads to the guide page.
 
 ![How-to-play-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/5bd140b7-56bd-4b4a-aeb2-0cdb604a0253)
+
 __________________________________________________________________________________________________________
 
 To provide feedback, click on the Feedback button.
 
 ![Feedback-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/16a6e07b-4041-4955-8b95-eaa345c71026)
+
 __________________________________________________________________________________________________________
 
 Heads back to the menu page.
 
 ![close](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/eeec5f20-6d2f-4a45-ab66-6e54a69f2012)
+
 __________________________________________________________________________________________________________
 
 
 Shows corrent score, how many correct or wrong answers.
 
 ![scoreboard](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/a7e2d655-d16a-4566-9337-7fd5b0f9b304)
+
 __________________________________________________________________________________________________________
 
 ## Future Implementations
@@ -240,13 +250,17 @@ Used to validate the Javascript code, no errors were found. [JSHint](https://jsh
 
 # Credits
 
-
 ## Youtube Channels
 
+* [Programming with Mosh](https://www.youtube.com/@programmingwithmosh)
+* [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)
+* [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
 
-## Icons
+__________________________________________________________________________________________________________
 
+This video helped me a lot to start this project: [Build A Quiz App With JavaScript](https://youtu.be/riDzcEQbX6k)
 
+__________________________________________________________________________________________________________
 
 ## Acknowledgments
 
