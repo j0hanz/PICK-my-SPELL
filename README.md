@@ -19,6 +19,7 @@
 - [Testing](#testing)
   - [W3C Validator](#w3c-validator)
   - [Wave Validator](#wave-validator)
+  - [Lighthouse](#lighthouse)
 - [Credits](#credits)
     - [Youtube Channels](#youtube-channels)
     - [Icons](#icons)
@@ -62,40 +63,58 @@ Icons shown during game Is taken from [Font Awesome](https://fontawesome.com/) .
 
 ## Deployment
 
-
+Login (or signup) to Github.
 
 #### Instructions:
 
+* Go to the repository for this project -> [PICK-my-SPELL](https://github.com/j0hanz/PICK-my-SPELL)
 
+* Click on the settings button.
+
+* Select pages in the left hand navigation menu.
+
+* From the dropdown, select *main branch* and then click save.
 
 ## Local Development
 
-
-
+Login (or signup) to Github.
 
 ### Fork
 
-
-
 #### Instructions:
 
+* Go to the repository for this project: -> [PICK-my-SPELL](https://github.com/j0hanz/PICK-my-SPELL)
 
+* Click the Fork button in the top right corner.
 
 ### Clone
 
 #### Instructions:
 
+* Go to the repository for this project: -> [PICK-my-SPELL](https://github.com/j0hanz/PICK-my-SPELL)
+
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+
+* Type 'git clone' into the terminal and then paste the link you copied. Press enter.
+
 
 
 # Testing
 
-
 ## W3C Validator
 
+![testing-w3c](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/a7996186-a78b-4e3f-ba18-db43725a17c3)
 
 
-## wave validator
+## Wave Validator
 
+![testing-wave](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/716dc208-ac98-4075-bdf5-3c424ac8ff3f)
+
+## Lighthouse
+
+![testing-lighthouse](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/db84f993-c434-4775-aff2-52f986d8bded)
 
 
 # Credits
@@ -109,5 +128,11 @@ Icons shown during game Is taken from [Font Awesome](https://fontawesome.com/) .
 
 
 ## Acknowledgments
+
+I would like to acknowledge the following people who helped me along with this project:
+
+* Graeme Taylor - My Mentor.
+
+* Kristyna - My Cohort facilitator. 
 
 
