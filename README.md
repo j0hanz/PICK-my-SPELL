@@ -39,12 +39,14 @@ PICK-me-SPELL Is a spelling game that Is built like a quiz, you will have differ
 
 The game has 2 difficulty level to choose.
 
+__________________________________________________________________________________________________________
 ### Easy mode
 
 In Easy mode, you have 4 different spelling options to choose, one of them Is correct spelled.
 
 ![Easy-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/8aede8ce-eb99-4955-a2af-4e87e816bcd6)
 
+__________________________________________________________________________________________________________
 ### Hard mode
 
 In Hard mode, you have 6 different spelling options to choose and has more challenging words, one of them Is correct spelled.
