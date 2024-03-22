@@ -6,6 +6,9 @@
 # Contents
 
 - [User Experience](#user-experience)
+  - [Difficulty](#difficulty)
+    - [Easy mode](#easy-mode)
+    - [Hard mode](hard-mode)
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -27,6 +30,23 @@
  
 # User Experience
 
+PICK-me-SPELL Is a spelling game that Is built like a quiz, you will have different spelling options for each icon that will be displayed, one of them Is the correct one and you have 10s to choose.
+
+## Difficulty
+
+The game has 2 difficulty level to choose.
+
+### Easy mode
+
+In Easy mode, you have 4 different spelling options to choose, one of them Is correct spelled.
+
+![Easy-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/8aede8ce-eb99-4955-a2af-4e87e816bcd6)
+
+### Hard mode
+
+In Hard mode, you have 6 different spelling options to choose and has more challenging words, one of them Is correct spelled.
+
+![Hard-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/13cb47b2-bbd5-4b4b-8d23-3d7a1d39ae2b)
 
 # Design
 
@@ -39,7 +59,9 @@ Took inspiration from [coolors.com](https://coolors.co/252422-ff0000-37ff00-abab
 
 ## Typography
 
-Icons shown during game Is taken from [Font Awesome](https://fontawesome.com/) .
+Font family used on this website is imported from Google fonts: [Inter](https://fonts.google.com/specimen/Inter?query=inter) 
+
+Icons shown during game Is taken from [Font Awesome](https://fontawesome.com/)
 
 # Features
 
