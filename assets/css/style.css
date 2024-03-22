@@ -1,5 +1,6 @@
 /* All elements */
 * {
+  z-index:auto;
   margin: 0;
   box-sizing: unset;
   font-family: "Inter";
@@ -145,10 +146,6 @@ footer {
   margin-top: 0.5rem;
 }
 
-.p-my {
-  font-size: 20px;
-}
-
 label {
   font-size: 20px;
 }
@@ -222,9 +219,17 @@ img {
   font-size: 40px;
   padding-bottom: 75px;
 }
+.thank-you {
+  font-size: 50px;
+  margin: 10%;
+}
 #game-area {
   padding: 0%;
   margin: 0;
+}
+
+.fa-thumbs-up {
+  color: #37ff00;
 }
 /* Hover effect */
 
