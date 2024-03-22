@@ -87,64 +87,86 @@ When I started this project, I used Balsamiq to draw how I wanted the website to
 To start the game, click on the play button.
 
 ![play-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/0e1ac933-d59c-4491-88af-b736bda10a8c)
+__________________________________________________________________________________________________________
 
 Starts the game in Easy mode
 
 ![Easy-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/3fea56ec-4964-4ef2-b736-6c390b008d06)
+__________________________________________________________________________________________________________
 
 Starts the game in Hard mode.
 
 ![Hard-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/6e5cab52-a418-4b94-b6c5-863fa3292074)
+__________________________________________________________________________________________________________
 
 Quits the game and heads back to the menu page.
 
 ![quit-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/03938e1c-5e8e-445a-a52b-9d3a185d727d)
+__________________________________________________________________________________________________________
 
 Every question will have an Icon shown at the top, pick the right spelling word. Below you have a timer set to 10 seconds. When the timer goes to 0 the answer will be registered as wrong and goes to the next question.
 
 ![Icon-timer](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/bccdd7eb-a965-4247-9b03-89508d4f3817)
+__________________________________________________________________________________________________________
 
 Heads to the guide page.
 
 ![How-to-play-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/5bd140b7-56bd-4b4a-aeb2-0cdb604a0253)
+__________________________________________________________________________________________________________
 
 To provide feedback, click on the Feedback button.
 
 ![Feedback-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/16a6e07b-4041-4955-8b95-eaa345c71026)
+__________________________________________________________________________________________________________
 
 Heads back to the menu page.
 
 ![close](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/eeec5f20-6d2f-4a45-ab66-6e54a69f2012)
+__________________________________________________________________________________________________________
 
 
 Shows corrent score, how many correct or wrong answers.
 
 ![scoreboard](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/a7e2d655-d16a-4566-9337-7fd5b0f9b304)
-
-
-
-
-
-
-
-
-
-
-
-## General Features on Each page
-
-
+__________________________________________________________________________________________________________
 
 ## Future Implementations
 
+* Create a username
 
+* Have a scoreboard
 
 ### Benefits:
 
-
+Users can see their highest score and other users score.
 
 # Technologies Used
 
+* [Balsamiq](https://balsamiq.com/) - Used this wireframe to layout the site how I wanted.
+
+* [VScode](https://code.visualstudio.com/) - Program I used for coding.
+
+* [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/) - For spell & grammar control.
+
+* [Spell Checker](https://chromewebstore.google.com/detail/spell-checker-for-chrome/jfpdnkkdgghlpdgldicfgnnnkhdfhocg) - For spell control.
+
+* [Font Awesome Icons](https://fontawesome.com/icons) - Icons taken from Font Awesome.
+
+* [Online-Convert](https://image.online-convert.com/convert-to-webp) - Convert images to webp format.
+
+* [Remove bg](https://www.remove.bg/upload) - Removing imgage background so It matches the sites background.
+
+* [Readme Editor](https://readme.so/editor) - For ideas how to write a readme.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot, test features and viewing on different screen-sizes, helpt to solve issues.
+
+* [Github](https://github.com/) - To save and store files for this site.
+
+* [W3Schools](https://www.w3schools.com/html/default.asp) - Helpt me to getting ideas for html & Css codes.
+
+* [Gitpod](https://www.gitpod.io/) - For workspace.
+
+* [W3X Validator](https://validator.w3.org/) - For testing html & css code.
 
 # Deployment & Local Development
 
