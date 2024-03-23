@@ -1,5 +1,6 @@
 
 ![logo](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/569bc685-df03-4e73-9769-61ba202c3fab)
+## Test and challenge your spelling knowledge :mag_right::white_check_mark:
 
 ![Am_I_Responsive_PP2](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/99744dac-9ebc-4861-919a-52619c4eecff)
 
@@ -8,9 +9,6 @@ Image taken from [Am I Responsive](https://ui.dev/amiresponsive?url=https://j0ha
 # Contents
 
 - [User Experience](#user-experience)
-  - [Difficulty](#difficulty)
-    - [Easy mode](#easy-mode)
-    - [Hard mode](hard-mode)
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -18,6 +16,8 @@ Image taken from [Am I Responsive](https://ui.dev/amiresponsive?url=https://j0ha
       - [Preview](#preview)
       - [Final design](#final-design)
 - [Features](#features)
+    - [Easy mode](#easy-mode)
+    - [Hard mode](hard-mode)
     - [Future Implementations](#future-implementations)
 - [Technologies Used](#technologies-used)
 - [Deployment & Local Development](#deployment--local-development)
@@ -38,26 +38,6 @@ Image taken from [Am I Responsive](https://ui.dev/amiresponsive?url=https://j0ha
 # User Experience
 
 PICK-my-SPELL Is a spelling game that Is built like a quiz, you will have different spelling options for each icon that will be displayed, one of them Is the correct one and you have 10s to choose. An excellent game if you want to improve your English spelling
-
-## Difficulty
-
-The game has 2 difficulty level to choose.
-
-__________________________________________________________________________________________________________
-
-### Easy mode
-
-In Easy mode, you have 4 different spelling options to choose, one of them Is correct spelled.
-
-![Easy-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/8aede8ce-eb99-4955-a2af-4e87e816bcd6)
-
-__________________________________________________________________________________________________________
-
-### Hard mode
-
-In Hard mode, you have 6 different spelling options to choose and has more challenging words, one of them Is correct spelled.
-
-![Hard-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/13cb47b2-bbd5-4b4b-8d23-3d7a1d39ae2b)
 
 # Design
 
@@ -92,7 +72,26 @@ When I started this project, I used Balsamiq to draw how I wanted the website to
 
 # Features
 
+The game has 2 difficulty level to choose.
+
+__________________________________________________________________________________________________________
+
+### Easy mode
+
+In Easy mode, you have 4 different spelling options to choose, one of them Is correct spelled.
+
+![Easy-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/8aede8ce-eb99-4955-a2af-4e87e816bcd6)
+
+
+### Hard mode
+
+In Hard mode, you have 6 different spelling options to choose and has more challenging words, one of them Is correct spelled.
+
+![Hard-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/13cb47b2-bbd5-4b4b-8d23-3d7a1d39ae2b)
+
 To start the game, click on the play button.
+
+__________________________________________________________________________________________________________
 
 ![play-btn](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/0e1ac933-d59c-4491-88af-b736bda10a8c)
 
