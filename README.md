@@ -3,6 +3,8 @@
 
 ![Am_I_Responsive_PP2](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/99744dac-9ebc-4861-919a-52619c4eecff)
 
+Image taken from [Am I Responsive](https://ui.dev/amiresponsive?url=https://j0hanz.github.io/PICK-my-SPELL/)
+
 # Contents
 
 - [User Experience](#user-experience)
@@ -26,6 +28,9 @@
   - [Wave Validator](#wave-validator)
   - [Lighthouse](#lighthouse)
   - [JSHint](#jshint)
+  - [Functionality testing](#functionality-testing)
+  - [Compatibility testing](#compatibility-testing)
+  - [Known Issues](#known-issues)
 - [Credits](#credits)
     - [Youtube Channels](#youtube-channels)
     - [Acknowledgments](#acknowledgments)
@@ -180,6 +185,8 @@ Users can see their highest score and other users score.
 
 * [W3X Validator](https://validator.w3.org/) - For testing html & css code.
 
+* [Google Fonts](https://fonts.google.com/) - As a font resource.
+
 # Deployment & Local Development
 
 ## Deployment
@@ -247,6 +254,18 @@ Used to validate the Javascript code, no errors were found. [JSHint](https://jsh
   - Largest function has 16 statements in it, while the median is 4.5.
   - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
+## Functionality testing
+
+  - I used Chrome developer tools throughout the project for testing and solving problems.
+
+## Compatibility testing
+
+  - I checked all supported devices in Chrome developer tools.
+
+## Known Issues
+
+  - Vertical mode on mobile devices Is not optimal yet.
+  - Buttons color doesn't clear after clicked for some mobile devices. 
 
 # Credits
 
