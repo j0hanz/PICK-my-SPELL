@@ -348,7 +348,9 @@ let timeLeft;
 
 let timerInterval;
 
-//EventListeners
+/*
+EventListeners
+*/
 easyButton.addEventListener("click", function () {
   startGame("easy");
 });
@@ -360,9 +362,12 @@ howToPlay.addEventListener("click", showGuide);
 feedbackButton.addEventListener("click", feedback);
 quitButton.addEventListener("click", quitGame);
 closeButton.addEventListener("click", closeText);
-
-//Functions for the buttons
-
+/*
+Functions for the buttons
+*/
+/*
+When How to play button Is clicked
+*/
 function showGuide() {
   showGameGuide.classList.remove("hide");
   showFeedback.classList.add("hide");
@@ -373,7 +378,9 @@ function showGuide() {
   feedbackButton.classList.add("hide");
   headerElement.classList.add("hide");
 }
-
+/*
+When Feedback button Is clicked
+*/
 function feedback() {
   showGameGuide.classList.add("hide");
   showFeedback.classList.remove("hide");
@@ -384,13 +391,17 @@ function feedback() {
   feedbackButton.classList.add("hide");
   headerElement.classList.add("hide");
 }
-
+/*
+When close arrow icon Is clicked
+*/
 function closeText() {
   if (confirm) {
     window.location = "index.html";
   }
 }
-
+/*
+When Play button Is clicked
+*/
 function playGame() {
   easyButton.classList.remove("hide");
   hardButton.classList.remove("hide");
@@ -402,7 +413,9 @@ function playGame() {
   showFeedback.classList.add("hide");
   feedbackButton.classList.add("hide");
 }
-
+/*
+Timer function
+*/
 function startTimer() {
   timeLeft = 10;
   document.getElementById("countdown").textContent = timeLeft;
@@ -422,6 +435,11 @@ function startTimer() {
     }
   }, 1000);
 }
+
+/*
+Start game function:
+First "if" function Is for difficulty select
+*/
 
 function startGame(gametype) {
   if (gametype === "easy") {
@@ -443,14 +461,18 @@ function startGame(gametype) {
   currentQuestionIndex = 0;
   nextQuestion();
 }
-
+/*
+Quit game function:
+*/
 function quitGame() {
   if (confirm) {
     window.location = "index.html";
   }
   resetState();
 }
-
+/*
+Next question function:
+*/
 function nextQuestion() {
   resetState();
   startTimer();
@@ -461,7 +483,9 @@ function nextQuestion() {
     countdownElement.classList.add("hide");
   }
 }
-
+/*
+Show question function:
+*/
 function showQuestion(question) {
   activeIconClass = question.question;
   questionElement.classList.add(question.question);
@@ -484,7 +508,9 @@ function showQuestion(question) {
     answerButtonsElement.appendChild(button);
   });
 }
-
+/*
+Reset function:
+*/
 function resetState() {
   clearStatus(document.body);
   questionElement.classList.remove(activeIconClass);
@@ -493,9 +519,10 @@ function resetState() {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild);
   }
 }
-
+/*
+When answer Is selected:
+*/
 function selectAnswer(e) {
-  // Get the selected answer
   let selectedButton = e.target;
   // Check if the selected answer is correct
   let correct = selectedButton.dataset.correct;
@@ -521,7 +548,9 @@ function selectAnswer(e) {
     quitButton.innerText = "Exit";
   }
 }
-
+/*
+Status function during selected answer:
+*/
 function setStatus(element, correct) {
   clearStatus(element);
 
@@ -533,7 +562,9 @@ function setStatus(element, correct) {
     nextQuestion();
   }
 }
-
+/*
+Clear Status function:
+*/
 function clearStatus(element) {
   element.classList.remove("correct");
   element.classList.remove("wrong");

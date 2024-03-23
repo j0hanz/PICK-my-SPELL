@@ -1,6 +1,6 @@
 /* All elements */
 * {
-  z-index:auto;
+  z-index: auto;
   margin: 0;
   box-sizing: unset;
   font-family: "Inter";
@@ -21,7 +21,56 @@ h1 {
   padding-bottom: 60px;
 }
 
+/* Main */
+
+label {
+  font-size: 20px;
+}
+input {
+  width: 21em;
+  padding: 15px;
+  height: 1.5em;
+  border-radius: 15px;
+  background-color: #252422;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
+textarea {
+  width: 26.5rem;
+  height: 10em;
+  border-radius: 15px;
+  background-color: #252422;
+  color: #ffffff;
+  margin: 20px;
+  font-size: 20px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+td {
+  padding: 20px;
+  border-style: groove;
+  border-width: 0.5px;
+  border-color: #ababab;
+  font-size: 20px;
+  max-width: 380px;
+  background-color: #1e1e1d;
+}
+
+img {
+  max-width: 380px;
+}
+
 /* Remove underline on links and color change */
+
 a {
   text-decoration: none;
   color: #ff0000;
@@ -31,12 +80,15 @@ span {
   font-size: 50px;
   color: #ff0000;
 }
+
 /* Footer */
+
 footer {
   margin: 2%;
 }
 
 /* classes */
+
 .btn {
   margin-top: 100px;
   padding: 22px;
@@ -59,6 +111,7 @@ footer {
 .btn--feedback {
   width: 160px;
 }
+
 .btn--quit {
   margin-top: 25px;
 }
@@ -68,6 +121,7 @@ footer {
   width: 160px;
   margin-top: 5%;
 }
+
 .icon-style {
   margin-top: 30px;
   font-size: 50px;
@@ -77,14 +131,6 @@ footer {
 .timer {
   font-size: 30px;
   padding-bottom: 20px;
-}
-#correct {
-  font-size: 30px;
-  color: #37ff00;
-}
-#wrong {
-  font-size: 30px;
-  color: #ff0000;
 }
 
 .hide {
@@ -127,9 +173,11 @@ footer {
   font-size: 100px;
   color: #ffffff;
 }
+
 .icon-style-correct {
   color: #37ff00;
 }
+
 .icon-style-wrong {
   color: #ff0000;
 }
@@ -139,35 +187,31 @@ footer {
 }
 
 .p-text {
-  font-size: 30px;
-  padding: 15px;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 0.5rem;
+  font-size: 20px;
+  padding: 0px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1rem;
 }
 
-label {
-  font-size: 20px;
+.border {
+  border-style: groove;
+  border-color: #ff0000;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 10px;
+  background-color: #1e1e1d;
 }
-input {
-  width: 21em;
-  padding: 15px;
-  height: 1.5em;
-  border-radius: 15px;
-  background-color: #252422;
-  margin: 20px;
-  color: #ffffff;
-  font-size: 20px;
+
+.border-text {
+  border-style: groove;
+  border-color: #37ff00;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 10px;
+  background-color: #1e1e1d;
 }
-textarea {
-  width: 26.5rem;
-  height: 10em;
-  border-radius: 15px;
-  background-color: #252422;
-  color: #ffffff;
-  margin: 20px;
-  font-size: 20px;
-}
+
 .submit-btn {
   width: 10em;
   position: relative;
@@ -187,26 +231,6 @@ textarea {
   margin-top: 0.5rem;
 }
 
-table {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-td {
-  padding: 20px;
-  border-style: groove;
-  border-width: 0.5px;
-  border-color: #ababab;
-  font-size: 20px;
-  max-width: 380px;
-}
-img {
-  max-width: 380px;
-}
 .btn--play,
 .btn--guide,
 .btn--feedback {
@@ -219,18 +243,29 @@ img {
   font-size: 40px;
   padding-bottom: 75px;
 }
+
 .thank-you {
   font-size: 50px;
   margin: 10%;
 }
+
+/*ID:s*/
+
 #game-area {
   padding: 0%;
   margin: 0;
 }
 
-.fa-thumbs-up {
+#correct {
+  font-size: 30px;
   color: #37ff00;
 }
+
+#wrong {
+  font-size: 30px;
+  color: #ff0000;
+}
+
 /* Hover effect */
 
 .btn:hover {
@@ -279,6 +314,7 @@ span:hover {
 }
 
 /* Media Queries */
+/* 1440px */
 @media (max-width: 1440px) {
   h1 {
     font-size: 80px;
@@ -308,14 +344,13 @@ span:hover {
   img {
     max-width: 250px;
   }
-
   .p-text {
-    font-size: 25px;
-    margin-bottom: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
-
+  table {
+    padding: 8px;
+  }
   td {
     font-size: 25px;
   }
@@ -330,9 +365,9 @@ span:hover {
     margin-right: 25%;
     width: 13rem;
   }
-  
 }
 
+/* 900px */
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
@@ -360,16 +395,14 @@ span:hover {
     font-size: 80px;
   }
   .p-text {
-    font-size: 25px;
-    padding: 10px;
-    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 17%;
+    margin-right: 17%;
   }
   img {
     max-width: 200px;
   }
-  table {
-    padding: 8px;
-  }
+
   td {
     font-size: 20px;
     max-width: 200px;
@@ -426,20 +459,20 @@ span:hover {
   .social-media {
     font-size: 40px;
   }
-
   .p-text {
-    font-size: 19px;
-    padding: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0.5rem;
+    font-size: 10px;
   }
   table {
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;
+    margin-top: 0.5rem;
   }
   td {
-    font-size: 15px;
+    font-size: 10px;
     padding: 8px;
   }
   label {
@@ -489,7 +522,6 @@ span:hover {
   .btn--hard {
     margin-top: 10%;
   }
-  
 }
 
 /* 375px */
@@ -538,14 +570,15 @@ span:hover {
     max-width: 125px;
   }
   .p-text {
-    font-size: 15px;
-    padding: 10px;
-    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 10px;
   }
   table {
     padding: 8px;
     margin-left: 2px;
     margin-right: 2px;
+    margin-top: 0.1rem;
   }
   td {
     font-size: 13px;
@@ -595,9 +628,9 @@ span:hover {
     font-size: 35px;
     padding-bottom: 30px;
   }
- 
 }
 
+/* 320px */
 @media (max-width: 320px) {
   h1 {
     font-size: 32px;
@@ -632,11 +665,6 @@ span:hover {
 
   img {
     max-width: 125px;
-  }
-  .p-text {
-    font-size: 15px;
-    padding: 10px;
-    margin-bottom: 15px;
   }
   table {
     padding: 0px;
@@ -673,9 +701,6 @@ span:hover {
   }
   .icon-style {
     font-size: 65px;
-  }
-  .p-my {
-    font-size: 13px;
   }
 
   .btn--play,
