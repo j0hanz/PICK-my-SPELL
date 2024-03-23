@@ -1,6 +1,6 @@
 
 ![logo](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/569bc685-df03-4e73-9769-61ba202c3fab)
-## Test and challenge your spelling knowledge :mag_right: :white_check_mark:
+## Test and challenge your spelling knowledge. [Play now! :mag_right:](https://j0hanz.github.io/PICK-my-SPELL/)
 
 ![Am_I_Responsive_PP2](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/99744dac-9ebc-4861-919a-52619c4eecff)
 
@@ -38,7 +38,7 @@ Image taken from [Am I Responsive](https://ui.dev/amiresponsive?url=https://j0ha
  
 # User Experience
 
-Pick my Spell Is a spelling game that Is built like a quiz, you will have different spelling options for each icon that will be displayed, one of them Is the correct one and you have 10s to choose. An excellent game for users that want to improve their English spelling.
+PICK-my-SPELL is a spelling game that is built like a quiz. Different spelling options will be shown, one of them Is the correct one and you have 10 seconds to choose. An excellent game for users that want to improve their English spelling.
 
 # Design
 
