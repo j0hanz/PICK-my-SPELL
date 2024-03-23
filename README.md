@@ -1,6 +1,6 @@
 
 ![logo](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/569bc685-df03-4e73-9769-61ba202c3fab)
-## Test and challenge your spelling knowledge :mag_right::white_check_mark:
+## Test and challenge your spelling knowledge :mag_right: :white_check_mark:
 
 ![Am_I_Responsive_PP2](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/99744dac-9ebc-4861-919a-52619c4eecff)
 
