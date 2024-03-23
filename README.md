@@ -33,6 +33,7 @@ Image taken from [Am I Responsive](https://ui.dev/amiresponsive?url=https://j0ha
   - [Known Issues](#known-issues)
 - [Credits](#credits)
     - [Youtube Channels](#youtube-channels)
+    - [Code Knowledge](#code-knowledge)
     - [Acknowledgments](#acknowledgments)
  
 # User Experience
@@ -145,6 +146,11 @@ Shows corrent score, how many correct or wrong answers.
 
 __________________________________________________________________________________________________________
 
+## Feedback section
+
+![contact](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/e9a05eb5-d020-4b82-aa6f-a1a171149288)
+
+
 ## Future Implementations
 
 * Create a username
@@ -231,8 +237,13 @@ Login (or signup) to Github.
 
 ## W3C Validator
 
+### HTML
+
 ![testing-w3c](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/a7996186-a78b-4e3f-ba18-db43725a17c3)
 
+### CSS
+
+No errors or warnings shown during css code check.
 
 ## Wave Validator
 
@@ -278,6 +289,10 @@ ________________________________________________________________________________
 This video helped me a lot to start this project: [Build A Quiz App With JavaScript](https://youtu.be/riDzcEQbX6k)
 
 __________________________________________________________________________________________________________
+
+## Code Knowledge
+
+* [Stack Overflow](https://stackoverflow.com/)
 
 ## Acknowledgments
 
