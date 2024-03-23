@@ -78,14 +78,14 @@ ________________________________________________________________________________
 
 ### Easy mode
 
-In Easy mode, you have 4 different spelling options to choose, one of them Is correct spelled.
+In Easy mode, you can choose between 4 different spelling option. One of them is the correctly spelled.
 
 ![Easy-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/8aede8ce-eb99-4955-a2af-4e87e816bcd6)
 
 
 ### Hard mode
 
-In Hard mode, you have 6 different spelling options to choose and has more challenging words, one of them Is correct spelled.
+In Hard mode, you can choose between 6 different spelling option and hard hard mode has more challenging words. One of them is the correctly spelled.
 
 ![Hard-mode](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/13cb47b2-bbd5-4b4b-8d23-3d7a1d39ae2b)
 
@@ -115,7 +115,7 @@ Quits the game and heads back to the menu page.
 
 __________________________________________________________________________________________________________
 
-Every question will have an Icon shown at the top, pick the right spelling word. Below you have a timer set to 10 seconds. When the timer goes to 0 the answer will be registered as wrong and goes to the next question.
+Every question will have an Icon shown at the top, pick the right spelled word. Below you have a timer set to 10 seconds. When the timer goes to 0 the answer will be registered as wrong and the game moves on to the next question.
 
 ![Icon-timer](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/bccdd7eb-a965-4247-9b03-89508d4f3817)
 
