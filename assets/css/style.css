@@ -149,8 +149,9 @@ footer {
   gap: 50px;
   border-radius: 20px;
   border-style: groove;
-  border-color: #ababab;
   padding: 15px;
+  background-color: #1e1e1d;
+  border-color: #252422;
 }
 .score-correct {
   color: #37ff00;
