@@ -183,7 +183,7 @@ Users can see their highest score and other users score.
 
 * [Github](https://github.com/) - To save and store files for this site.
 
-* [W3Schools](https://www.w3schools.com/html/default.asp) - Helpt me to getting ideas for html & Css codes.
+* [W3Schools](https://www.w3schools.com/html/default.asp) - Helpt me to getting ideas for Htmt, Css and JavaScript codes.
 
 * [Gitpod](https://www.gitpod.io/) - For workspace.
 
