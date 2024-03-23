@@ -43,10 +43,9 @@ PICK-my-SPELL Is a spelling game that Is built like a quiz, you will have differ
 
 ## Colour Scheme
 
-![Coolor Scheme](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/61286658-14c7-4960-975b-5cb7414c9066)
+![Colour_Scheme](https://github.com/j0hanz/PICK-my-SPELL/assets/159924955/cbc1da44-2d50-4903-97a1-085897ab36d0)
 
-Took inspiration from [coolors.com](https://coolors.co/252422-ff0000-37ff00-ababab-ffffff)
-
+Took inspiration from [coolors.com](https://coolors.co/1e1e1d-252422-ff0000-37ff00-ababab-ffffff)
 
 ## Typography
 
